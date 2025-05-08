@@ -39,6 +39,7 @@ To run this project locally, follow these steps:
 1. Clone the Repository
 
 git clone https://github.com/GDIAMEL/COVID_19_DATA_TRACKER_PROJECT.git
+
 cd COVID_19_DATA_TRACKER_PROJECT
 
 ### Running Comprehensive Analysis
@@ -46,7 +47,7 @@ cd COVID_19_DATA_TRACKER_PROJECT
 For a complete analysis with all visualizations and reports saved to an output directory:
 
 ```python
-tracker = CovidDataTracker()
+tracker = Covid19DataTracker()
 tracker.run_comprehensive_analysis(output_dir="covid_analysis_output")
 ```
 
