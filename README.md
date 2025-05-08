@@ -21,7 +21,7 @@ This COVID-19 Global Data Tracker is designed to fetch, process, analyze, and vi
 
 ## Requirements
 
-- Python 3.7+
+- Python 
 - pandas
 - matplotlib
 - seaborn
@@ -33,34 +33,13 @@ This COVID-19 Global Data Tracker is designed to fetch, process, analyze, and vi
 1. Clone the repository or download the source code
 2. Install the required packages:
 
-```bash
-pip install pandas matplotlib seaborn numpy requests
-```
+## Getting Started
+To run this project locally, follow these steps:
 
-## Usage
+1. Clone the Repository
 
-### Basic Usage
-
-```python
-from covid_tracker import CovidDataTracker
-
-# Create a tracker instance
-tracker = CovidDataTracker()
-
-# Load and process data
-tracker.load_data()
-tracker.process_global_data()
-tracker.process_country_data()
-
-# Generate visualizations
-tracker.plot_global_trend()
-tracker.plot_top_countries(metric='Confirmed', top_n=10)
-tracker.plot_mortality_recovery_rates()
-tracker.plot_daily_changes()
-
-# Export a summary report
-tracker.export_summary_report('covid19_summary.csv')
-```
+git clone https://github.com/GDIAMEL/COVID_19_DATA_TRACKER_PROJECT.git
+cd COVID_19_DATA_TRACKER_PROJECT
 
 ### Running Comprehensive Analysis
 
@@ -74,14 +53,13 @@ tracker.run_comprehensive_analysis(output_dir="covid_analysis_output")
 ### Running the Demo
 
 ```bash
-python covid_tracker_demo.py
+python covid_19_data_tracker.py
 ```
 
 ## Explanation of Key Files
 
-- `covid_tracker.py`: Main module containing the `CovidDataTracker` class and all functionality
-- `covid_tracker_demo.py`: Demonstration script showing how to use the tracker
-- `covid_analysis_output/`: Directory where analysis results are saved (created when running the analysis)
+- `covid_19_data_tracker.py`: Main module containing the `CovidDataTracker` class and all functionality
+
 
 ## Data Sources
 
