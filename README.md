@@ -66,6 +66,7 @@ python covid_19_data_tracker.py
 
 This project uses data from the COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University:
 - [COVID-19 Data Repository](https://github.com/CSSEGISandData/COVID-19)
+- https://systems.jhu.edu/research/public-health/ncov/
 
 ## Example Output
 
